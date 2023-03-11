@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: center;
+}
+ul.navmenu li {
+    list-style-type: none;
+}
+ul.navmenu a {
+       line-height: 60px;
+       padding: 4em 2em;
+       list-style-type: none;
+}
+li a:hover{
+    color: rgba(224, 9, 149, 0.902);
+}
+.section {
+    min-height: 100vh;
+    background-image: url(/images/Untitled\ Design.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+}
+.hero{
+    width: 80%;
+    margin: auto;
+    padding: 30px 0px;
+}
+article h1{
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(205, 229, 46);
+}
+article h1::after{
+    content:"";
+    height: 3px;
+    width: 225px;
+    background-color: rgb(206, 227, 19);
+    margin: auto;
+}
+img.about{
+    margin: auto;
+    display: block;
+    height: 220px;
+    width: 220px;
+    margin-top: 40px;
+    border-radius: 50%;
+    border: 3px solid #ecc6e8;
+}
+content{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1.5;
+    position: relative;
+    top: 50px;
+    background-image: linear-gradient(#f1b7eb,#9e0b8f);
+    border-radius: 6px;
+    padding: 3px 6px;
+}
+article h5{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 30px;
+    color: rgb(206, 135, 5);
+}
+article p{
+    font-size: 30px;
+    font-weight: bold;
+    color: #140f0f;
+    position: relative;
+    top: 20px;
+}
+.container{
+    background-color: #f08ee6;
+    padding-top: 50px;
+    height: 250px;
+}
+.container h1{
+    color: rgba(92, 3, 94, 0.939);
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+ul li{
+    color: #0b6c4cee;   
+    font-weight: bolder;
+    font-size: 25px;
+    text-decoration: none;
+}
+ul.submenu li{
+    list-style-type: none;
+    display: inline;
+}
+
+ul.submenu a{
+    line-height: 60px;
+       padding: 4em 2em;
+       list-style-type: none;
+}
+a:link,
+  a:visited {
+    color: #aa08a5;
+    text-decoration: none;}
+a:hover {
+    color: coral;
+}
+h3{
+    position: relative;
+    top: 40px;
+}

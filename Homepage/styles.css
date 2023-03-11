@@ -32,8 +32,6 @@ li a{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
-
 ul.navmenu li {
     list-style-type: none;
 }
