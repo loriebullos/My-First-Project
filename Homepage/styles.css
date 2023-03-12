@@ -4,77 +4,120 @@
    padding: 0;
    box-sizing: border-box;
 }
-ul.navmenu {
-    background-color: rgb(239, 189, 206);
-    height: 130px;
-    display: flex;justify-content: space-around;
-    flex-direction: row;
-}    
+body{
+    background-image:url(/images/pexels-tomasz-filipek-1891234.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
 .logo { 
     height: auto;
-    width: 130px;
+    width: 150px;
+    margin: 0;}
+    
+header {
+    background-color: rgb(243, 188, 235);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
     display: flex;
-    justify-self: flex-start;
+    align-items: center;
+   justify-content: space-between;
+   flex-direction: row;
+   transition: all .50s ease;}
+.submenu {
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    position: absolute;
+    right: 15%;
+    top: 40px;
+    left: 25%;
 }
-li a{
+   li a{
     color: #0b6c4cee;   
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 30px;
     text-decoration: none;
 }
-.submenu {
-    padding-top: 2.5em;
-}
-.li-submenu1, .li-submenu2, .li-submenu3 {
-    padding-right: 40px; width: 4em;
-    padding-top: 40px;
-    display: contents; flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-ul.navmenu li {
-    list-style-type: none;
-}
-ul.navmenu a {
-       line-height: 60px;
-       padding: 4em 2em;
-       list-style-type: none;
-}
+ul.submenu li {
+    list-style-type: none;}
+ul.submenu a {
+    line-height: 60px;
+    padding: 4em 2em;
+    list-style-type: none;}
 li a:hover{
-    color: rgba(224, 9, 149, 0.902);
+color: rgba(224, 9, 149, 0.902);}
+
+.intro {
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: sans-serif;
+width: 100;
+min-height: 100vh;
 }
-.hero {
-    background-color: bisque;
-    padding-top: 70px;
-    padding-bottom: 200px;
-    background-image:url(/images/nice\ pic.jpg);
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: first baseline;
-    flex-direction: row;
-    height: 100%; width: 100%;
+.wrapper{
+    width: 80%;
+    padding: 30px 0;
+    text-align: center;
 }
-h1 {
-    color: rgb(35, 7, 60);
-    font-size: 90px;
-    font-weight: bolder;
-}
-.name {padding: 50px;
-}
-.paragraph {
-    color: rgb(139, 10, 98);
-    font-weight: bold;
-    font-size: 32px;
-    padding-top: 50px;
-    padding-right: 158px;
+.img-lorie{
+    height: auto;
+    width: 70%;
     
 }
-.kodego:hover {
-    color: rgba(83, 158, 9, 0.879);
+.box{
+    padding: 0%;
+    margin: 0%;
 }
-.my-pic {
-    height: auto;
-    width: 320px;
+.section-header{
+    padding-top: 20%;
+    color: rgb(172, 10, 134);
+    font-size: 45px;
+    font-weight: bolder;
+}
+h2{
+    color: #0b6c4cee;
+    font-size: 25px;
+    padding-bottom: 20px;
+    background-color:linear-gradient(#f1b7eb,#9e0b8f);
+}
+porfolio-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    width: 100;
+    min-height: 100vh;   
 }
+.wrapper-portfolio{
+    width: 80%;
+    padding: 30px 0;
+    text-align: center;}
+.img-area{
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+.image1 {
+    height: auto;
+    width: 70%;
+}
+.image2{
+    height: auto;
+    width: 70%;
+    position: relative;
+    left: 20%;
+}
+.image3{
+    height: auto;
+    width: 70%;
+}
+
+

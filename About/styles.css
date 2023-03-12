@@ -73,10 +73,11 @@ article h5{
 }
 article p{
     font-size: 30px;
-    font-weight: bold;
-    color: #140f0f;
+    font-weight: bolder;
+    color: #0b6c4cee;
     position: relative;
     top: 20px;
+    font-family: monospace;
 }
 .container{
     background-color: #f08ee6;
@@ -104,6 +105,9 @@ ul.submenu a{
     line-height: 60px;
        padding: 4em 2em;
        list-style-type: none;
+}
+.submenu a:hover{
+    color: coral;
 }
 a:link,
   a:visited {
