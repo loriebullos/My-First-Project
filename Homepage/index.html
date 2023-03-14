@@ -10,18 +10,24 @@
 </head>
 <body>
     <header>
-         <nav class="navmenu">
-            <img class="logo" src="/images/orie (1).png" alt="logo-with-name">
-            <ul class="submenu">
-                <li class="li-submenu1"><a href="/About/index.html"><span>About</span></a></li>
-                <li class="li-submenu2"><a href="/my-projects-webdev/index.html"><span>Projects</span></a></li>
-                <li class="li-submenu3"><a href="/contact/index.html"><span>Contact</span></a></li>
-            </ul> 
-         </nav>
+        <nav>
+        <div class="navbar">
+            <div class="logo"><img class="logo" src="/images/orie (1).png"></div>
+            <ul class="links">
+                <li class="about"><a href="/About/index.html">About</a></li>
+                <li class="contact"><a href="/contact/index.html">Contact</a></li>
+                <li class="Resume"><a href="/images/Web Developer.png">Resume</a></li>
+            </ul>
+            <a href="" class="action-btn">Homepage</a>
+            <div class="toggle-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        </nav>
     </header>
     <div class="intro">
      <div class="wrapper">
-        <h1 class="section-header" >Hi! Im Lorie Bullos!</h1>
+        <h1 class="section-header" >Hi! Im Lorie Bullos</h1>
         <h2>A Full Stack Web Developer and Graphic Designer</h2>
             <div class="main-content">
                 <div class="box">
@@ -31,16 +37,26 @@
                 </div>
             </div>         
         </div>
+    </div>
+    <section class="main-container">
+            <div class="card">
+                <div class="card-content">
+                  <h1>This is My Portpolio</h1>
+                  <p>
+                    Welcome to my portfolio! I'm a <em>Web Developer</em> with a passion for creating beautiful and functional websites that provide an exceptional user experience. 
+                    </p>
+                   <a class="btn1" href="/my-portfolio/index.html">Click Here!</a> 
+                </div>           
+            </div>
+            <div class="card">
+                <div class="card-content">
+                  <h1>My Projects</h1>
+                  <p>As a web developer, I am passionate about creating seamless and dynamic user experiences through my code. Please take a look at my work and feel free to 
+                    <em><a class="link-contact" href="/contact/index.html">contact me</a></em> to discuss your next project.</p>
+                   <a class="btn2" href="/my-projects-webdev/index.html">Click Here!</a>            
+            </div>
         </div>
-    <div class="porfolio-container">
-        <div class="wrapper-portfolio">
-              <h1 class="portfolio">This is My Portfolio</h1>
-            <div class="img-area">
-               <div><img class="image1" src="/images/LORIE S.BULLOS (1).png" alt="my portfolio page 1"></div>
-               <div><img class="image2" src="/images/2.png" alt="my portfolio page 2"></div> 
-               <div><img class="image3" src="/images/3.png" alt="my potfolio page 3"></div>
-            </div> 
-        </div>
-        </div>
+    </section>
+    
 </body>
 </html>
