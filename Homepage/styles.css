@@ -11,15 +11,16 @@ body{
     background-attachment: fixed;
     background-position: center;
 }
-nav{position: fixed;
-    z-index: 10;
+nav{
+    position: fixed;
+    z-index:10;
     left: 0;
     right: 0;
     top: 0;
+    background-color: #f6c1f0;
     height: 100px;
-    font-family: monospace;
-    background-color: #f57ce9;
 }
+
 img.logo{
     float: left;
     height: auto;
@@ -29,6 +30,7 @@ li {
     list-style-type: none;
 }
 a{
+    display: block;
     text-decoration: none;
     color: #0b6c4cee;
     list-style-type: none;
@@ -40,15 +42,42 @@ a:hover{
     width: 100%;
     height: 60px;
     max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content:space-between ;
 }
 nav.links{
     float: right;
     padding: 0;
+    margin: 0;
     width: 60%;
-    height: 100%;
+}
+.links{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 70%;
+    padding-left: 30%;
+    padding-top: 30px;
+}
+.hamburger{
+    color: #fff;
+    font-size: ;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translate(-50%);
+}
+nav .hamburger .line{
+    width: 30px;
+    height: 5px;
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 3px;
 }
 .intro {
 display: flex;
@@ -64,9 +93,15 @@ min-height: 100vh;
     text-align: center;
 }
 .img-lorie{
-    height: auto;
-    width: 75%;
-    
+    margin: auto;
+    display: block;
+    height: 220px;
+    width: 220px;
+    margin-top: 40px;
+    border-radius: 50%;
+    border: 3px solid #ecc6e8;
+    position: relative;
+    top: 100px;
 }
 .box{
     padding: 0%;
@@ -74,18 +109,17 @@ min-height: 100vh;
 }
 .section-header{
     padding-top: 20%;
-    color:#1ceca6ee;
+    color:#1be3a0ee;
     font-size: 45px;
     font-weight: bolder;
 }
 .section-header:hover{
-    color: rgb(243, 186, 105);
+    color: rgb(245, 234, 88);
 }
 h2{
-    color: #fff;
+    color: #eaf51a;
     font-size: 25px;
-    padding-bottom: 20px;
-    background-color:linear-gradient(#f1b7eb,#9e0b8f);
+    
 }
 .main-container{
     display: flex;
@@ -126,7 +160,7 @@ flex-direction: column;
     color: rgb(243, 186, 105);
 }
 .card-content p{
-    font-size: 25px;
+    font-size: 20px;
 }
 .card-content p em{
     color: rgb(243, 186, 105);
