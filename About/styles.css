@@ -1,3 +1,34 @@
+Skip to content
+Search or jump to…
+Pulls
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@loriebullos 
+loriebullos
+/
+loriebullos.github.io
+Public
+Cannot fork because you own this repository and are not a member of any organizations.
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+More
+loriebullos.github.io/About/styles.css
+@loriebullos
+loriebullos about page edited
+Latest commit 5a2e8e4 5 minutes ago
+ History
+ 1 contributor
+150 lines (145 sloc)  2.68 KB
+
 * {
     margin: 0;
     padding: 0;
@@ -47,23 +78,13 @@ article h1::after{
 img.about{
     margin: auto;
     display: block;
-    height: 220px;
-    width: 220px;
+    height: 300px;
+    width: 300px;
     margin-top: 40px;
     border-radius: 50%;
-    border: 3px solid #ecc6e8;
+    border: 3px solid #ecc6e8;  
 }
-content{
-    font-size: 20px;
-    font-weight: bold;
-    color: #fff;
-    line-height: 1.5;
-    position: relative;
-    top: 50px;
-    background-image: linear-gradient(#f1b7eb,#9e0b8f);
-    border-radius: 6px;
-    padding: 3px 6px;
-}
+
 article h5{
     text-transform: uppercase;
     font-size: 50px;
@@ -100,8 +121,7 @@ article p:hover{
 }
 .container{
     background-color: #f08ee6;
-    padding-top: 50px;
-    height: 250px;
+    height: 1000px;
 }
 .container h1{
     color: rgba(92, 3, 94, 0.939);
@@ -109,25 +129,7 @@ article p:hover{
     font-size: 40px;
     font-family: sans-serif;
 }
-ul li{
-    color: #0b6c4cee;   
-    font-weight: bolder;
-    font-size: 25px;
-    text-decoration: none;
-}
-ul.submenu li{
-    list-style-type: none;
-    display: inline;
-}
-
-ul.submenu a{
-    line-height: 60px;
-       padding: 4em 2em;
-       list-style-type: none;
-}
-.submenu a:hover{
-    color: coral;
-}
+/*my portfolio section*/
 a:link,
   a:visited {
     color: #aa08a5;
@@ -138,4 +140,42 @@ a:hover {
 h3{
     position: relative;
     top: 40px;
+}
+.portfolio-container{
+    height: 900px;
+    background-color: #ecc6e8;
+    
+}
+.portfolio-container h1{
+   color: #aa08a5;
+   font-size: 40px;
+   font-weight: bolder;
+font-family: sans-serif;
+padding-top: 5%;
+padding-bottom: 3%;
+}
+
+.subcontainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr );
+    grid-template-rows: repeat(2, 1 fr);
+    background-color: skyblue;
+    resize: both;
+    margin: 30px;
+
+}
+.subcontainer .item {
+    height: auto;
+    width: 100%;
+    gap: 30px;
+    border: 4px solid #19966cee;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+@media screen (min-width: 480px) {
+    .subcontainer{
+        grid-template-columns: repeat(1, 1fr );
+        grid-template-rows: repeat(4, 1 fr);
+    }
 }
