@@ -111,9 +111,9 @@ h3{
     top: 40px;
 }
 .portfolio-container{
-    height: 900px;
+    height: 400px;
     background-color: #ecc6e8;
-    
+   padding: 100px;
 }
 .portfolio-container h1{
    color: #aa08a5;
@@ -129,9 +129,8 @@ padding-bottom: 3%;
     grid-template-columns: repeat(2, 1fr );
     grid-template-rows: repeat(2, 1 fr);
     background-color: skyblue;
-    resize: both;
-    margin: 30px;
-
+    
+    
 }
 .subcontainer .item {
     height: auto;
@@ -142,9 +141,5 @@ padding-bottom: 3%;
     display: flex;
     align-items: center;
 }
-@media screen (min-width: 480px) {
-    .subcontainer{
-        grid-template-columns: repeat(1, 1fr );
-        grid-template-rows: repeat(4, 1 fr);
-    }
-}
+
+
