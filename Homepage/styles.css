@@ -129,6 +129,7 @@ transform: scaleX(0.5);
  flex-direction: column;
  position: relative;
  bottom: 20%;
+ border-radius: 20px;
  }
  .card{
      display: flex;
@@ -167,7 +168,7 @@ transform: scaleX(0.5);
     color: #1be3a0ee;
  }
  .portfolio-name a{
-    color: #edf551;
+    color: #f20cc0e5;
  }
  .link-contact{
      text-decoration: none;
@@ -175,13 +176,14 @@ transform: scaleX(0.5);
  }
  .portfolio-container{
     height: 400px;
-    background-color: #f455dc;
+    background-color: #f6a8ea;
    padding-left: 100px;
    padding-right: 100px;
    margin-left: 40px;
    margin-right: 40px;
-   margin-top: 10%;
    border-radius: 15px;
+   position: relative;
+   bottom: 70px;  
 }
 .portfolio-container h1{
    color: #29ca9f;
@@ -193,10 +195,6 @@ transform: scaleX(0.5);
    display: flex;
    justify-content: center;
    align-items: center;
-}
-.portfolio-container h1:hover{
-     color: rgb(243, 186, 105);
-    
 }
 .subcontainer{
     display: grid;
@@ -213,19 +211,23 @@ transform: scaleX(0.5);
     display: flex;
     align-items: center;
 }
+.skills-section{
+    height: 30%;
+    background-color: #f6a8ea;
+}
 .card-skills{
     display: grid;
     grid-template-columns: repeat(2, 1fr );
     grid-template-rows: repeat(1, 1 fr);
     gap: 3px;
     background-color: #de10bf;  
-    height: 600px;
+    height: 500px;
     border-radius: 15px;
     margin-left: 15%;
     margin-right: 15%;
-    position: relative;
-    bottom: 70px;
     box-shadow: 0 10px 20px #de10bf;
+    position: relative;
+    top: 200px;
 }
 .skills-item{
     height: auto;
@@ -241,6 +243,8 @@ transform: scaleX(0.5);
     flex-direction: column;
     border-radius: 15px
 }
-.skills-columns{
-    background-color: #f455dc;
+.skills-columns h1{
+    background-color: #de10bf;
+    margin-top: 200px ;
+    padding: 70px;
 }
